@@ -118,7 +118,7 @@ const animate = () => {
 
   // Handle animation frames
   frameCounter++;
-  const frameDelay = currentDirection === 'idle' ? 60 : 40;
+  const frameDelay = currentDirection === 'idle' ? 80 : 40;
   if (frameCounter > frameDelay) {
     frameCounter = 0;
     animationFrame = (animationFrame + 1) % spriteFrames[currentDirection];

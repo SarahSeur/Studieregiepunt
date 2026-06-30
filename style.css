@@ -10,3 +10,25 @@ canvas {
     height: 720px;
     background-color: red;
 }
+
+.ui {
+    position: absolute;
+}
+
+.ui-inventory {
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%) scale(1.3);
+}
+
+.ui-days {
+    top: 18%;
+    right: 0;
+    transform: translateX(-50%) scale(1.3);
+}
+
+.ui-order {
+    top: 16%;
+    left: 8%;
+    transform: scale(1.3);
+}
