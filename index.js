@@ -5,10 +5,10 @@ canvas.width = 1280;
 canvas.height = 720;
 
 const image = new Image();
-image.src = '/images/map.png'
+image.src = './images/map.png'
 
 const player = new Image();
-player.src = '/images/florist-idle.png'
+player.src = './images/florist-idle.png'
 
 let cameraX = -2100;
 let cameraY = -1600;
