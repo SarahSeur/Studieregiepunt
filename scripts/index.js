@@ -26,7 +26,6 @@ collisionGrid.forEach((row, y) => {
   });
 });
 
-
 const image = new Image();
 image.src = './images/map.png'
 
@@ -83,8 +82,6 @@ const isColliding = () => {
   });
 };
 
-
-
 const animate = () => {
   requestAnimationFrame(animate);
 
@@ -110,13 +107,11 @@ const animate = () => {
     newDirection = 'idle';
   }
 
-  // Reset animation frame if direction changed
   if (newDirection !== currentDirection) {
     animationFrame = 0;
     currentDirection = newDirection;
   }
 
-  // Handle animation frames
   frameCounter++;
   const frameDelay = currentDirection === 'idle' ? 80 : 40;
   if (frameCounter > frameDelay) {
